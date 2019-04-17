@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+#Nav {
+	position: absolute;
+	left: 411px;
+	top: 119px;
+	width: 841px;
+	height: 32px;
+	z-index: 200;
+	background-color: rgba(0,0,0,.7);
+}
+#log {
+	position: absolute;
+	width: 388px;
+	height: 174px;
+	z-index: 300;
+	left: -30px;
+	top: 1px;
+}
+#footer {
+	position: absolute;
+	left: 594px;
+	top: 600px;
+	width: 349px;
+	height: 43px;
+	z-index: 302;
+}

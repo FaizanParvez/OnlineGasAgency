@@ -1,0 +1,17 @@
+<html>
+<head>
+<title></title>
+<script language="javascript">
+function ClearHistory()
+{
+	var backlen=history.length;
+	history.go(backlen);
+	document.write (document.history.length);
+	window.location.href="login.asp";
+	
+}
+</script>
+<body onLoad="ClearHistory()">
+
+</body>
+</html>

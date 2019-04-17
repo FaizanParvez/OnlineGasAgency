@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+#Nav {
+	position: absolute;
+	left: 387px;
+	top: 77px;
+	width: 694px;
+	height: 26px;
+	z-index: 200;
+	background-color: rgba(0,0,0,.7);
+}
+#log {
+	position: absolute;
+	width: 388px;
+	height: 160px;
+	z-index: 300;
+	left: 3px;
+	top: -4px;
+}
+#list {
+	position: absolute;
+	left: 8px;
+	top: 174px;
+	width: 273px;
+	height: 130px;
+	z-index: 301;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: x-large;
+	font-style: italic;
+	background-color: rgba(0,0,0,.7);
+	text-align: left;
+	padding-left: 15px;
+	border-radius: 0px 15px 0px 15px;
+	color: rgba(0,0,0,1);
+}
+a:link {
+	color: rgba(255,255,255,1);
+	font-family: "Courier New", Courier, monospace;
+}
+#Footer {
+	position: absolute;
+	left: 538px;
+	top: 620px;
+	width: 415px;
+	height: 75px;
+	z-index: 302;
+}
+#wel {
+	position: absolute;
+	left: 458px;
+	top: 126px;
+	width: 570px;
+	height: 60px;
+	z-index: 303;
+	font-family: "Comic Sans MS", cursive;
+	font-style: italic;
+	padding-left: 5px;
+}
